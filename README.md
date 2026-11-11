@@ -46,10 +46,13 @@ The following concepts and methods were practiced:
 ## Project Structure
 
 ```text
-javascript-functions/
-├── index.html
-├── script.js
-└── README.md
+FUNCOES/
+│
+├── README.md
+│
+├── exercicio-01/
+│   ├── index.html
+│   └── script.js
 ```
 
 ## Status
