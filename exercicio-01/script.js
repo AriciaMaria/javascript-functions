@@ -42,3 +42,14 @@ function calcularValorEstoque(produtos) {
 }
 
 console.log(calcularValorEstoque(produtos)); // Exemplo de uso da função  
+
+//Desafio 5 - Retorne um novo array com o estoque atualizado, sem modificar o array original.
+const atualizarEstoque = produtos.map(produtos => {
+  if (produtos.id === 2) {
+    return { ...produtos, estoque: 10 }; // Atualiza o estoque do produto com id 2
+  }
+  if (produtos.id === 5) {
+    return { ...produtos, estoque: 6 }; // Atualiza o estoque do produto com id 5         
+  }
+  return {...produtos};
+});

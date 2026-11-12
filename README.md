@@ -24,6 +24,9 @@ Create a function that returns only products with a stock quantity greater than 
 ### 4. Calculate Inventory Value
 Create a function that calculates the total inventory value based on each product's price and stock quantity.
 
+### 5. Update Product Stock
+Create a new array with updated stock quantities without modifying the original array.
+
 ## JavaScript Concepts
 
 The following concepts and methods were practiced:
@@ -37,6 +40,9 @@ The following concepts and methods were practiced:
 - `reduce()`
 - Arrow-free callback functions
 - Conditional logic
+- `map()`
+- Spread operator (`...`)
+- Immutability
 
 ## Technologies
 
